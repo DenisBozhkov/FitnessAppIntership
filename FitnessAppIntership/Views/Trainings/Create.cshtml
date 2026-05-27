@@ -1,0 +1,66 @@
+﻿@using FitnessAppIntership.Data
+@model FitnessAppIntership.Models.TrainingViewModel
+@inject ApplicationDbContext context
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Create</h1>
+
+<h4>TrainingEntity</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="TypeId" class="control-label"></label>
+                <select asp-for="TypeId" class="form-control">
+                    @foreach(var type in context.TrainingTypes)
+                    {
+                        <option value="@type.Id">@type.Name</option>
+                    }
+                </select>
+                <span asp-validation-for="TypeId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="StartTime" class="control-label"></label>
+                <input asp-for="StartTime" class="form-control" />
+                <span asp-validation-for="StartTime" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CoachId" class="control-label"></label>
+                <select asp-for="CoachId" class="form-control">
+                    @foreach (var coach in context.Coaches)
+                    {
+                        <option value="@coach.Id">@string.Format("{0} {1}", coach.FirstName, coach.LastName)</option>
+                    }
+                </select>
+                <span asp-validation-for="CoachId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="HallId" class="control-label"></label>
+                <select asp-for="HallId" class="form-control">
+                    @foreach (var hall in context.Halls)
+                    {
+                        <option value="@hall.Id">@hall.Name</option>
+                    }
+                </select>
+                <span asp-validation-for="HallId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

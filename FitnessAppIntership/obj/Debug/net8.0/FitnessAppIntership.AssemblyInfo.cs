@@ -12,11 +12,11 @@ using System;
 using System.Reflection;
 
 [assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
-[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-FitnessAppIntership-71465d93-df41-4bcc-98cf-5f429ea4a71c")]
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-FitnessAppIntership-09b0fd1e-edc7-48df-bc46-902c17d76f3c")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("FitnessAppIntership")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+813f426f24915c476691725f1c52a44e66d352f8")]
 [assembly: System.Reflection.AssemblyProductAttribute("FitnessAppIntership")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FitnessAppIntership")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,46 +1,46 @@
-/* _content/FitnessAppIntership/Pages/Shared/_Layout.cshtml.rz.scp.css */
+/* _content/FitnessAppIntership/Views/Shared/_Layout.cshtml.rz.scp.css */
 /* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
 
-a.navbar-brand[b-cqdsug0shy] {
+a.navbar-brand[b-wb1rfhf26q] {
   white-space: normal;
   text-align: center;
   word-break: break-all;
 }
 
-a[b-cqdsug0shy] {
+a[b-wb1rfhf26q] {
   color: #0077cc;
 }
 
-.btn-primary[b-cqdsug0shy] {
+.btn-primary[b-wb1rfhf26q] {
   color: #fff;
   background-color: #1b6ec2;
   border-color: #1861ac;
 }
 
-.nav-pills .nav-link.active[b-cqdsug0shy], .nav-pills .show > .nav-link[b-cqdsug0shy] {
+.nav-pills .nav-link.active[b-wb1rfhf26q], .nav-pills .show > .nav-link[b-wb1rfhf26q] {
   color: #fff;
   background-color: #1b6ec2;
   border-color: #1861ac;
 }
 
-.border-top[b-cqdsug0shy] {
+.border-top[b-wb1rfhf26q] {
   border-top: 1px solid #e5e5e5;
 }
-.border-bottom[b-cqdsug0shy] {
+.border-bottom[b-wb1rfhf26q] {
   border-bottom: 1px solid #e5e5e5;
 }
 
-.box-shadow[b-cqdsug0shy] {
+.box-shadow[b-wb1rfhf26q] {
   box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
 }
 
-button.accept-policy[b-cqdsug0shy] {
+button.accept-policy[b-wb1rfhf26q] {
   font-size: 1rem;
   line-height: inherit;
 }
 
-.footer[b-cqdsug0shy] {
+.footer[b-wb1rfhf26q] {
   position: absolute;
   bottom: 0;
   width: 100%;

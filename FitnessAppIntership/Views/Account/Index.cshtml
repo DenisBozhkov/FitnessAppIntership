@@ -1,0 +1,50 @@
+﻿@model IEnumerable<FitnessAppIntership.Data.Entities.AccountEntity>
+
+@{
+    ViewData["Title"] = "View";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>View</h1>
+
+<p>
+    <a asp-action="Register">Register New Account</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Active)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Active)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-action="ResetPassword" asp-route-id="@item.Id">Reset password</a> |
+                    @if (item.Active)
+                    {
+                        <a asp-action="Deactivate" asp-route-id="@item.Id">Deactivate</a>
+                    }
+                    @if (!item.Active)
+                    {
+                        <a asp-action="Activate" asp-route-id="@item.Id">Activate</a>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
