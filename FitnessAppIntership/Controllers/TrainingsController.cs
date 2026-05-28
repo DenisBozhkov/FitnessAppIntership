@@ -3,9 +3,11 @@ using FitnessAppIntership.Data.Entities;
 using FitnessAppIntership.Models;
 using FitnessAppIntership.Services.Interfaces;
 using FitnessAppIntership.Mappers;
+using Microsoft.AspNetCore.Authorization;
 
 namespace FitnessAppIntership.Controllers
 {
+    [Authorize]
     public class TrainingsController : Controller
     {
         private readonly ITrainingService _service;

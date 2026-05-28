@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 
 namespace FitnessAppIntership.Data.Entities
 {
@@ -9,6 +10,7 @@ namespace FitnessAppIntership.Data.Entities
         [Required]
         public decimal Price { get; set; }
         [Required]
+        [DisplayName("Duration (days)")]
         public int DurationInDays { get; set; }
         public List<TrainingEntity> Trainings { get; set; } = [];
         public List<SubscriptionEntity> ConcreteSubscriptions { get; set; } = [];

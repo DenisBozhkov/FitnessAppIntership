@@ -9,10 +9,12 @@ namespace FitnessAppIntership.Controllers
     public class CoachesController : Controller
     {
         private readonly ICoachService _service;
+        private readonly IWebHostEnvironment _env;
 
-        public CoachesController(ICoachService service)
+        public CoachesController(ICoachService service, IWebHostEnvironment env)
         {
             _service = service;
+            _env = env;
         }
 
         public IActionResult Index()
@@ -29,7 +31,7 @@ namespace FitnessAppIntership.Controllers
             return View(_service.GetCoach(id.Value));
         }
 
-        public IActionResult Create()
+        public IActionResult Register()
         {
             return View();
         }
@@ -40,6 +42,14 @@ namespace FitnessAppIntership.Controllers
         {
             if (ModelState.IsValid)
             {
+                IFormFile? file = Request.Form.Files["image"];
+                if (file != null)
+                {
+                    string ext = Path.GetExtension(file.FileName);
+                    coachEntity.ImagePath = Guid.NewGuid() + ext;
+                    using var saveAs = System.IO.File.Create(Path.Combine(_env.WebRootPath, "files", coachEntity.ImagePath));
+                    file.CopyTo(saveAs);
+                }
                 _service.RegisterCoach(coachEntity);
                 return RedirectToAction(nameof(Index));
             }
@@ -66,6 +76,22 @@ namespace FitnessAppIntership.Controllers
 
             if (ModelState.IsValid)
             {
+                CoachEntity original = _service.GetCoach(id);
+                if (Request.Form.TryGetValue("ImageChange", out _))
+                {
+                    IFormFile? file = Request.Form.Files["image"];
+                    if (original.ImagePath != null)
+                        System.IO.File.Delete(Path.Combine(_env.WebRootPath, "files", original.ImagePath));
+                    if (file != null)
+                    {
+                        string ext = Path.GetExtension(file.FileName);
+                        coachEntity.ImagePath = Guid.NewGuid() + ext;
+                        using var saveAs = System.IO.File.Create(Path.Combine(_env.WebRootPath, "files", coachEntity.ImagePath));
+                        file.CopyTo(saveAs);
+                    }
+                }
+                else
+                    coachEntity.ImagePath = original.ImagePath;
                 _service.EditCoach(id, coachEntity);
                 return RedirectToAction(nameof(Index));
             }
@@ -85,6 +111,9 @@ namespace FitnessAppIntership.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult DeleteConfirmed(Guid id)
         {
+            CoachEntity entity = _service.GetCoach(id);
+            if (entity.ImagePath != null)
+                System.IO.File.Delete(Path.Combine(_env.WebRootPath, "files", entity.ImagePath));
             _service.DeleteCoach(id);
             return RedirectToAction(nameof(Index));
         }

@@ -1,16 +1,20 @@
 ﻿@model FitnessAppIntership.Data.Entities.CoachEntity
+@inject IWebHostEnvironment env
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Coach Details";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 <h1>Details</h1>
 
 <div>
-    <h4>CoachEntity</h4>
+    <h4>Coach</h4>
     <hr />
     <dl class="row">
+        <dd class="col-sm-12">
+            <img src="~/files/@(Model.ImagePath??"no-profile-picture.png")" width="150" height="150" />
+        </dd>
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.FirstName)
         </dt>
@@ -52,12 +56,6 @@
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.CV)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.ImagePath)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.ImagePath)
         </dd>
     </dl>
 </div>

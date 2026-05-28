@@ -1,11 +1,11 @@
 ﻿@model IEnumerable<FitnessAppIntership.Data.Entities.AccountEntity>
 
 @{
-    ViewData["Title"] = "View";
+    ViewData["Title"] = "Accounts";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>View</h1>
+<h1>Accounts</h1>
 
 <p>
     <a asp-action="Register">Register New Account</a>
@@ -39,7 +39,7 @@
                     {
                         <a asp-action="Deactivate" asp-route-id="@item.Id">Deactivate</a>
                     }
-                    @if (!item.Active)
+                    else
                     {
                         <a asp-action="Activate" asp-route-id="@item.Id">Activate</a>
                     }

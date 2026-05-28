@@ -1,17 +1,17 @@
 ﻿@model FitnessAppIntership.Data.Entities.CoachEntity
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Register Coach";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Create</h1>
+<h1>Register</h1>
 
-<h4>CoachEntity</h4>
+<h4>Coach</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="Create">
+        <form asp-action="Register" runat="server" enctype="multipart/form-data">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="FirstName" class="control-label"></label>
@@ -35,26 +35,25 @@
             </div>
             <div class="form-group">
                 <label asp-for="Email" class="control-label"></label>
-                <input asp-for="Email" class="form-control" />
+                <input asp-for="Email" type="email" class="form-control" />
                 <span asp-validation-for="Email" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="Specializations" class="control-label"></label>
-                <input asp-for="Specializations" class="form-control" />
+                <textarea asp-for="Specializations" class="form-control"></textarea>
                 <span asp-validation-for="Specializations" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="CV" class="control-label"></label>
-                <input asp-for="CV" class="form-control" />
+                <textarea asp-for="CV" class="form-control"></textarea>
                 <span asp-validation-for="CV" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="ImagePath" class="control-label"></label>
-                <input asp-for="ImagePath" class="form-control" />
-                <span asp-validation-for="ImagePath" class="text-danger"></span>
+                <input name="image" type="file" class="form-control" />
             </div>
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <input type="submit" value="Register" class="btn btn-primary" />
             </div>
         </form>
     </div>

@@ -19,6 +19,7 @@ builder.Services.AddDefaultIdentity<AccountEntity>(options => options.SignIn.Req
     .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddControllersWithViews();
 
+builder.Services.AddScoped<ICoachService, TmpCoachService>();
 //builder.Services.AddScoped<ICoachService, CoachService>();
 //builder.Services.AddScoped<IEquipmentService, EquipmentService>();
 builder.Services.AddScoped<IHallService, HallService>();
