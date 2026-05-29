@@ -1,5 +1,4 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using FitnessAppIntership.Data;
 using FitnessAppIntership.Data.Entities;
 using FitnessAppIntership.Services.Interfaces;
 using Microsoft.AspNetCore.Authorization;
@@ -9,12 +8,10 @@ namespace FitnessAppIntership.Controllers
     [Authorize(Roles = "admin")]
     public class HallsController : Controller
     {
-        private readonly ApplicationDbContext _context;
         private readonly IHallService _halls;
 
-        public HallsController(ApplicationDbContext context, IHallService halls)
+        public HallsController(IHallService halls)
         {
-            _context = context;
             _halls = halls;
         }
 

@@ -21,14 +21,11 @@ namespace FitnessAppIntership.Controllers
             _mapper = mapper;
         }
 
-        public IActionResult Index()
+        public IActionResult Index(Guid? memberId)
         {
-            return View(_service.GetAllSubscriptions());
-        }
-
-        public IActionResult Index(Guid memberId)
-        {
-            return View(_service.GetMemberSubscriptionHistory(memberId).OrderByDescending(x => x.DateOfPurchase));
+            if(memberId == null)
+                return View(_service.GetAllSubscriptions());
+            return View(_service.GetMemberSubscriptionHistory(memberId.Value).OrderByDescending(x => x.DateOfPurchase));
         }
 
         public IActionResult Details(Guid? id)

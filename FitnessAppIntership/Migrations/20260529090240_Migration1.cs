@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace FitnessAppIntership.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialMigration : Migration
+    public partial class Migration1 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -333,7 +333,7 @@ namespace FitnessAppIntership.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "RepairAndMaintenanceEntity",
+                name: "RepairsAndMaintenances",
                 columns: table => new
                 {
                     Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
@@ -343,9 +343,9 @@ namespace FitnessAppIntership.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_RepairAndMaintenanceEntity", x => x.Id);
+                    table.PrimaryKey("PK_RepairsAndMaintenances", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_RepairAndMaintenanceEntity_Equpments_EquipmentId",
+                        name: "FK_RepairsAndMaintenances_Equpments_EquipmentId",
                         column: x => x.EquipmentId,
                         principalTable: "Equpments",
                         principalColumn: "Id",
@@ -367,6 +367,30 @@ namespace FitnessAppIntership.Migrations
                         name: "FK_Visits_Subscriptions_SubscriptionId",
                         column: x => x.SubscriptionId,
                         principalTable: "Subscriptions",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "MemberEntityTrainingEntity",
+                columns: table => new
+                {
+                    MembersId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    TrainingsId = table.Column<Guid>(type: "uniqueidentifier", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_MemberEntityTrainingEntity", x => new { x.MembersId, x.TrainingsId });
+                    table.ForeignKey(
+                        name: "FK_MemberEntityTrainingEntity_Members_MembersId",
+                        column: x => x.MembersId,
+                        principalTable: "Members",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_MemberEntityTrainingEntity_Trainings_TrainingsId",
+                        column: x => x.TrainingsId,
+                        principalTable: "Trainings",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
@@ -440,8 +464,13 @@ namespace FitnessAppIntership.Migrations
                 column: "HallId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_RepairAndMaintenanceEntity_EquipmentId",
-                table: "RepairAndMaintenanceEntity",
+                name: "IX_MemberEntityTrainingEntity_TrainingsId",
+                table: "MemberEntityTrainingEntity",
+                column: "TrainingsId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_RepairsAndMaintenances_EquipmentId",
+                table: "RepairsAndMaintenances",
                 column: "EquipmentId");
 
             migrationBuilder.CreateIndex(
@@ -504,7 +533,10 @@ namespace FitnessAppIntership.Migrations
                 name: "AspNetUserTokens");
 
             migrationBuilder.DropTable(
-                name: "RepairAndMaintenanceEntity");
+                name: "MemberEntityTrainingEntity");
+
+            migrationBuilder.DropTable(
+                name: "RepairsAndMaintenances");
 
             migrationBuilder.DropTable(
                 name: "SubscriptionTypeEntityTrainingEntity");

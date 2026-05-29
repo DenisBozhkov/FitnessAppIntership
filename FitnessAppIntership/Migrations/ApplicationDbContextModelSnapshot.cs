@@ -255,7 +255,7 @@ namespace FitnessAppIntership.Migrations
 
                     b.HasIndex("EquipmentId");
 
-                    b.ToTable("RepairAndMaintenanceEntity");
+                    b.ToTable("RepairsAndMaintenances", (string)null);
                 });
 
             modelBuilder.Entity("FitnessAppIntership.Data.Entities.SubscriptionEntity", b =>

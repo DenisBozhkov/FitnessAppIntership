@@ -1,4 +1,7 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿#nullable disable
+
+using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 
 namespace FitnessAppIntership.Data.Entities
 {
@@ -7,6 +10,7 @@ namespace FitnessAppIntership.Data.Entities
         [Required]
         public TrainingTypeEntity Type { get; set; }
         [Required]
+        [DisplayName("Start Time")]
         public DateTime StartTime { get; set; }
         [Required]
         public CoachEntity Coach { get; set; }

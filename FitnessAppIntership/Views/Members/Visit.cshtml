@@ -1,0 +1,12 @@
+﻿@model ErrorViewModel
+
+@{
+    ViewData["Title"] = "Denied Visit Registration";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Denied Visit Registration</h1>
+
+<h3>The visit registration was denied - @Model.Message.</h3>
+
+<a asp-action="Index">Back to List</a>

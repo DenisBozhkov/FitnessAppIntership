@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 
 namespace FitnessAppIntership.Data.Entities
 {
@@ -6,6 +7,7 @@ namespace FitnessAppIntership.Data.Entities
     {
         public SubscriptionEntity Subscription { get; set; }
         [Required]
+        [DisplayName("Visit Time")]
         public DateTime VisitTime { get; set; }
     }
 }

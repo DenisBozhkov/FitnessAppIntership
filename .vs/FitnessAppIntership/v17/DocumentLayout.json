@@ -3,52 +3,232 @@
   "WorkspaceRootPath": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|d:\\_acer\\downloads\\project\\fitnessappintership\\fitnessappintership\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|solutionrelative:fitnessappintership\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|d:\\_acer\\downloads\\project\\fitnessappintership\\fitnessappintership\\services\\visitservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|solutionrelative:fitnessappintership\\services\\visitservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|d:\\_acer\\downloads\\project\\fitnessappintership\\fitnessappintership\\controllers\\trainingtypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|solutionrelative:fitnessappintership\\controllers\\trainingtypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|d:\\_acer\\downloads\\project\\fitnessappintership\\fitnessappintership\\services\\subscriptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|solutionrelative:fitnessappintership\\services\\subscriptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|d:\\_acer\\downloads\\project\\fitnessappintership\\fitnessappintership\\controllers\\trainingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|solutionrelative:fitnessappintership\\controllers\\trainingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|d:\\_acer\\downloads\\project\\fitnessappintership\\fitnessappintership\\controllers\\subscriptiontypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|solutionrelative:fitnessappintership\\controllers\\subscriptiontypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|d:\\_acer\\downloads\\project\\fitnessappintership\\fitnessappintership\\controllers\\subscriptionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|solutionrelative:fitnessappintership\\controllers\\subscriptionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|d:\\_acer\\downloads\\project\\fitnessappintership\\fitnessappintership\\controllers\\statisticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|solutionrelative:fitnessappintership\\controllers\\statisticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|d:\\_acer\\downloads\\project\\fitnessappintership\\fitnessappintership\\views\\members\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|solutionrelative:fitnessappintership\\views\\members\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|d:\\_acer\\downloads\\project\\fitnessappintership\\fitnessappintership\\controllers\\memberscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|solutionrelative:fitnessappintership\\controllers\\memberscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|d:\\_acer\\downloads\\project\\fitnessappintership\\fitnessappintership\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|solutionrelative:fitnessappintership\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|d:\\_acer\\downloads\\project\\fitnessappintership\\fitnessappintership\\services\\interfaces\\isubscriptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|solutionrelative:fitnessappintership\\services\\interfaces\\isubscriptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|d:\\_acer\\downloads\\project\\fitnessappintership\\fitnessappintership\\models\\memberviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|solutionrelative:fitnessappintership\\models\\memberviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|d:\\_acer\\downloads\\project\\fitnessappintership\\fitnessappintership\\views\\members\\visit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|solutionrelative:fitnessappintership\\views\\members\\visit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|d:\\_acer\\downloads\\project\\fitnessappintership\\fitnessappintership\\views\\members\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|solutionrelative:fitnessappintership\\views\\members\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|d:\\_acer\\downloads\\project\\fitnessappintership\\fitnessappintership\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|solutionrelative:fitnessappintership\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|d:\\_acer\\downloads\\project\\fitnessappintership\\fitnessappintership\\views\\trainings\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|solutionrelative:fitnessappintership\\views\\trainings\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|d:\\_acer\\downloads\\project\\fitnessappintership\\fitnessappintership\\views\\trainings\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|solutionrelative:fitnessappintership\\views\\trainings\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|d:\\_acer\\downloads\\project\\fitnessappintership\\fitnessappintership\\data\\entities\\visitentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|solutionrelative:fitnessappintership\\data\\entities\\visitentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|d:\\_acer\\downloads\\project\\fitnessappintership\\fitnessappintership\\data\\entities\\trainingentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|solutionrelative:fitnessappintership\\data\\entities\\trainingentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|d:\\_acer\\downloads\\project\\fitnessappintership\\fitnessappintership\\data\\dbconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|solutionrelative:fitnessappintership\\data\\dbconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|d:\\_acer\\downloads\\project\\fitnessappintership\\fitnessappintership\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|solutionrelative:fitnessappintership\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|d:\\_acer\\downloads\\project\\fitnessappintership\\fitnessappintership\\services\\trainingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|solutionrelative:fitnessappintership\\services\\trainingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|d:\\_acer\\downloads\\project\\fitnessappintership\\fitnessappintership\\controllers\\equipmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|solutionrelative:fitnessappintership\\controllers\\equipmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|d:\\_acer\\downloads\\project\\fitnessappintership\\fitnessappintership\\views\\subscriptions\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|solutionrelative:fitnessappintership\\views\\subscriptions\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|d:\\_acer\\downloads\\project\\fitnessappintership\\fitnessappintership\\views\\subscriptions\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|solutionrelative:fitnessappintership\\views\\subscriptions\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|d:\\_acer\\downloads\\project\\fitnessappintership\\fitnessappintership\\controllers\\subscriptionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|solutionrelative:fitnessappintership\\controllers\\subscriptionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|d:\\_acer\\downloads\\project\\fitnessappintership\\fitnessappintership\\models\\subscriptionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|solutionrelative:fitnessappintership\\models\\subscriptionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|d:\\_acer\\downloads\\project\\fitnessappintership\\fitnessappintership\\mappers\\subscriptionmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|solutionrelative:fitnessappintership\\mappers\\subscriptionmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|d:\\_acer\\downloads\\project\\fitnessappintership\\fitnessappintership\\data\\entities\\subscriptionentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|solutionrelative:fitnessappintership\\data\\entities\\subscriptionentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|d:\\_acer\\downloads\\project\\fitnessappintership\\fitnessappintership\\views\\subscriptiontypes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|solutionrelative:fitnessappintership\\views\\subscriptiontypes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|d:\\_acer\\downloads\\project\\fitnessappintership\\fitnessappintership\\views\\subscriptiontypes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|solutionrelative:fitnessappintership\\views\\subscriptiontypes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|d:\\_acer\\downloads\\project\\fitnessappintership\\fitnessappintership\\views\\subscriptiontypes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|solutionrelative:fitnessappintership\\views\\subscriptiontypes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|d:\\_acer\\downloads\\project\\fitnessappintership\\fitnessappintership\\views\\subscriptiontypes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|solutionrelative:fitnessappintership\\views\\subscriptiontypes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|d:\\_acer\\downloads\\project\\fitnessappintership\\fitnessappintership\\views\\subscriptiontypes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|solutionrelative:fitnessappintership\\views\\subscriptiontypes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|d:\\_acer\\downloads\\project\\fitnessappintership\\fitnessappintership\\views\\trainingtypes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|solutionrelative:fitnessappintership\\views\\trainingtypes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|d:\\_acer\\downloads\\project\\fitnessappintership\\fitnessappintership\\views\\trainingtypes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|solutionrelative:fitnessappintership\\views\\trainingtypes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|d:\\_acer\\downloads\\project\\fitnessappintership\\fitnessappintership\\views\\trainingtypes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|solutionrelative:fitnessappintership\\views\\trainingtypes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|d:\\_acer\\downloads\\project\\fitnessappintership\\fitnessappintership\\views\\trainingtypes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|solutionrelative:fitnessappintership\\views\\trainingtypes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|d:\\_acer\\downloads\\project\\fitnessappintership\\fitnessappintership\\views\\trainingtypes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|solutionrelative:fitnessappintership\\views\\trainingtypes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|d:\\_acer\\downloads\\project\\fitnessappintership\\fitnessappintership\\services\\coachservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|solutionrelative:fitnessappintership\\services\\coachservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|d:\\_acer\\downloads\\project\\fitnessappintership\\fitnessappintership\\services\\equipmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|solutionrelative:fitnessappintership\\services\\equipmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|d:\\_acer\\downloads\\project\\fitnessappintership\\fitnessappintership\\services\\memberlistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|solutionrelative:fitnessappintership\\services\\memberlistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|d:\\_acer\\downloads\\project\\fitnessappintership\\fitnessappintership\\services\\subscriptiontypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|solutionrelative:fitnessappintership\\services\\subscriptiontypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|d:\\_acer\\downloads\\project\\fitnessappintership\\fitnessappintership\\services\\trainingtypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|solutionrelative:fitnessappintership\\services\\trainingtypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|d:\\_acer\\downloads\\project\\fitnessappintership\\fitnessappintership\\controllers\\coachescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|solutionrelative:fitnessappintership\\controllers\\coachescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Migrations\\20260528191848_Migration1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FitnessAppIntership\\Migrations\\20260528191848_Migration1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|d:\\_acer\\downloads\\project\\fitnessappintership\\fitnessappintership\\services\\interfaces\\isubscriptiontypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|solutionrelative:fitnessappintership\\services\\interfaces\\isubscriptiontypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|d:\\_acer\\downloads\\project\\fitnessappintership\\fitnessappintership\\services\\interfaces\\imemberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|solutionrelative:fitnessappintership\\services\\interfaces\\imemberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|d:\\_acer\\downloads\\project\\fitnessappintership\\fitnessappintership\\services\\interfaces\\imemberlistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|solutionrelative:fitnessappintership\\services\\interfaces\\imemberlistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|d:\\_acer\\downloads\\project\\fitnessappintership\\fitnessappintership\\services\\interfaces\\ihallservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|solutionrelative:fitnessappintership\\services\\interfaces\\ihallservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|d:\\_acer\\downloads\\project\\fitnessappintership\\fitnessappintership\\services\\interfaces\\icoachservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|solutionrelative:fitnessappintership\\services\\interfaces\\icoachservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|d:\\_acer\\downloads\\project\\fitnessappintership\\fitnessappintership\\services\\interfaces\\iequipmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|solutionrelative:fitnessappintership\\services\\interfaces\\iequipmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|d:\\_acer\\downloads\\project\\fitnessappintership\\fitnessappintership\\views\\equipment\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|solutionrelative:fitnessappintership\\views\\equipment\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|d:\\_acer\\downloads\\project\\fitnessappintership\\fitnessappintership\\views\\equipment\\repair.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|solutionrelative:fitnessappintership\\views\\equipment\\repair.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|d:\\_acer\\downloads\\project\\fitnessappintership\\fitnessappintership\\views\\equipment\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|solutionrelative:fitnessappintership\\views\\equipment\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|d:\\_acer\\downloads\\project\\fitnessappintership\\fitnessappintership\\views\\equipment\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|solutionrelative:fitnessappintership\\views\\equipment\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|d:\\_acer\\downloads\\project\\fitnessappintership\\fitnessappintership\\views\\equipment\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|solutionrelative:fitnessappintership\\views\\equipment\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|d:\\_acer\\downloads\\project\\fitnessappintership\\fitnessappintership\\controllers\\hallscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|solutionrelative:fitnessappintership\\controllers\\hallscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|d:\\_acer\\downloads\\project\\fitnessappintership\\fitnessappintership\\controllers\\equipmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|solutionrelative:fitnessappintership\\controllers\\equipmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|d:\\_acer\\downloads\\project\\fitnessappintership\\fitnessappintership\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|solutionrelative:fitnessappintership\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|d:\\_acer\\downloads\\project\\fitnessappintership\\fitnessappintership\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|solutionrelative:fitnessappintership\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|d:\\_acer\\downloads\\project\\fitnessappintership\\fitnessappintership\\models\\equipmentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|solutionrelative:fitnessappintership\\models\\equipmentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|d:\\_acer\\downloads\\project\\fitnessappintership\\fitnessappintership\\controllers\\coachescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|solutionrelative:fitnessappintership\\controllers\\coachescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|d:\\_acer\\downloads\\project\\fitnessappintership\\fitnessappintership\\data\\entities\\trainingtypeentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|solutionrelative:fitnessappintership\\data\\entities\\trainingtypeentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|d:\\_acer\\downloads\\project\\fitnessappintership\\fitnessappintership\\views\\members\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|solutionrelative:fitnessappintership\\views\\members\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|d:\\_acer\\downloads\\project\\fitnessappintership\\fitnessappintership\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5639FD7D-8C34-41ED-A15F-C76DDAE13FD9}|FitnessAppIntership\\FitnessAppIntership.csproj|solutionrelative:fitnessappintership\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,155 +238,525 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "FitnessAppIntership\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "FitnessAppIntership\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAADsAAAAlAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Program.cs",
+              "RelativeDocumentMoniker": "FitnessAppIntership\\Program.cs",
+              "ToolTip": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Program.cs",
+              "RelativeToolTip": "FitnessAppIntership\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T12:59:40.101Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Views\\Members\\Details.cshtml",
+              "RelativeDocumentMoniker": "FitnessAppIntership\\Views\\Members\\Details.cshtml",
+              "ToolTip": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Views\\Members\\Details.cshtml",
+              "RelativeToolTip": "FitnessAppIntership\\Views\\Members\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHEAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-28T08:17:49.755Z",
+              "WhenOpened": "2026-05-29T12:53:14.377Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MembersController.cs",
+              "DocumentMoniker": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Controllers\\MembersController.cs",
+              "RelativeDocumentMoniker": "FitnessAppIntership\\Controllers\\MembersController.cs",
+              "ToolTip": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Controllers\\MembersController.cs",
+              "RelativeToolTip": "FitnessAppIntership\\Controllers\\MembersController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAYwDcAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T19:24:02.128Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "TrainingTypesController.cs",
-              "DocumentMoniker": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Controllers\\TrainingTypesController.cs",
-              "RelativeDocumentMoniker": "FitnessAppIntership\\Controllers\\TrainingTypesController.cs",
-              "ToolTip": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Controllers\\TrainingTypesController.cs",
-              "RelativeToolTip": "FitnessAppIntership\\Controllers\\TrainingTypesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "SubscriptionService.cs",
+              "DocumentMoniker": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Services\\SubscriptionService.cs",
+              "RelativeDocumentMoniker": "FitnessAppIntership\\Services\\SubscriptionService.cs",
+              "ToolTip": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Services\\SubscriptionService.cs",
+              "RelativeToolTip": "FitnessAppIntership\\Services\\SubscriptionService.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAApwBoAAAB/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T08:25:30.338Z",
+              "WhenOpened": "2026-05-29T16:15:35.887Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TrainingsController.cs",
-              "DocumentMoniker": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Controllers\\TrainingsController.cs",
-              "RelativeDocumentMoniker": "FitnessAppIntership\\Controllers\\TrainingsController.cs",
-              "ToolTip": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Controllers\\TrainingsController.cs*",
-              "RelativeToolTip": "FitnessAppIntership\\Controllers\\TrainingsController.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAOAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "VisitService.cs",
+              "DocumentMoniker": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Services\\VisitService.cs",
+              "RelativeDocumentMoniker": "FitnessAppIntership\\Services\\VisitService.cs",
+              "ToolTip": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Services\\VisitService.cs",
+              "RelativeToolTip": "FitnessAppIntership\\Services\\VisitService.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAEwBEAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T08:25:03.19Z",
+              "WhenOpened": "2026-05-29T15:30:40.211Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SubscriptionTypesController.cs",
-              "DocumentMoniker": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Controllers\\SubscriptionTypesController.cs",
-              "RelativeDocumentMoniker": "FitnessAppIntership\\Controllers\\SubscriptionTypesController.cs",
-              "ToolTip": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Controllers\\SubscriptionTypesController.cs",
-              "RelativeToolTip": "FitnessAppIntership\\Controllers\\SubscriptionTypesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T08:24:51.63Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SubscriptionsController.cs",
-              "DocumentMoniker": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Controllers\\SubscriptionsController.cs",
-              "RelativeDocumentMoniker": "FitnessAppIntership\\Controllers\\SubscriptionsController.cs",
-              "ToolTip": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Controllers\\SubscriptionsController.cs",
-              "RelativeToolTip": "FitnessAppIntership\\Controllers\\SubscriptionsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T08:24:44.508Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "StatisticsController.cs",
-              "DocumentMoniker": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Controllers\\StatisticsController.cs",
-              "RelativeDocumentMoniker": "FitnessAppIntership\\Controllers\\StatisticsController.cs",
-              "ToolTip": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Controllers\\StatisticsController.cs",
-              "RelativeToolTip": "FitnessAppIntership\\Controllers\\StatisticsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "MemberViewModel.cs",
+              "DocumentMoniker": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Models\\MemberViewModel.cs",
+              "RelativeDocumentMoniker": "FitnessAppIntership\\Models\\MemberViewModel.cs",
+              "ToolTip": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Models\\MemberViewModel.cs",
+              "RelativeToolTip": "FitnessAppIntership\\Models\\MemberViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T08:24:37.582Z",
+              "WhenOpened": "2026-05-29T15:07:18.083Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "MembersController.cs",
-              "DocumentMoniker": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Controllers\\MembersController.cs",
-              "RelativeDocumentMoniker": "FitnessAppIntership\\Controllers\\MembersController.cs",
-              "ToolTip": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Controllers\\MembersController.cs",
-              "RelativeToolTip": "FitnessAppIntership\\Controllers\\MembersController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T08:24:35.691Z",
+              "Title": "Visit.cshtml",
+              "DocumentMoniker": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Views\\Members\\Visit.cshtml",
+              "RelativeDocumentMoniker": "FitnessAppIntership\\Views\\Members\\Visit.cshtml",
+              "ToolTip": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Views\\Members\\Visit.cshtml",
+              "RelativeToolTip": "FitnessAppIntership\\Views\\Members\\Visit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-29T12:58:18.439Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "FitnessAppIntership\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "FitnessAppIntership\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T08:24:34.103Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Views\\Members\\Index.cshtml",
+              "RelativeDocumentMoniker": "FitnessAppIntership\\Views\\Members\\Index.cshtml",
+              "ToolTip": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Views\\Members\\Index.cshtml",
+              "RelativeToolTip": "FitnessAppIntership\\Views\\Members\\Index.cshtml",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAAEAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-28T10:18:23.043Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "HallsController.cs",
-              "DocumentMoniker": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Controllers\\HallsController.cs",
-              "RelativeDocumentMoniker": "FitnessAppIntership\\Controllers\\HallsController.cs",
-              "ToolTip": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Controllers\\HallsController.cs",
-              "RelativeToolTip": "FitnessAppIntership\\Controllers\\HallsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "ISubscriptionService.cs",
+              "DocumentMoniker": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Services\\Interfaces\\ISubscriptionService.cs",
+              "RelativeDocumentMoniker": "FitnessAppIntership\\Services\\Interfaces\\ISubscriptionService.cs",
+              "ToolTip": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Services\\Interfaces\\ISubscriptionService.cs",
+              "RelativeToolTip": "FitnessAppIntership\\Services\\Interfaces\\ISubscriptionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAvwAkAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T08:24:27.001Z",
+              "WhenOpened": "2026-05-28T18:38:29.722Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "EquipmentsController.cs",
-              "DocumentMoniker": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Controllers\\EquipmentsController.cs",
-              "RelativeDocumentMoniker": "FitnessAppIntership\\Controllers\\EquipmentsController.cs",
-              "ToolTip": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Controllers\\EquipmentsController.cs",
-              "RelativeToolTip": "FitnessAppIntership\\Controllers\\EquipmentsController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T08:24:14.053Z",
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Views\\Trainings\\Create.cshtml",
+              "RelativeDocumentMoniker": "FitnessAppIntership\\Views\\Trainings\\Create.cshtml",
+              "ToolTip": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Views\\Trainings\\Create.cshtml",
+              "RelativeToolTip": "FitnessAppIntership\\Views\\Trainings\\Create.cshtml",
+              "ViewState": "AgIAABAAAAAAAAAAAAAwwCIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-29T09:21:50.111Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "FitnessAppIntership\\Controllers\\AccountController.cs",
-              "ToolTip": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "FitnessAppIntership\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T08:21:08.607Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Views\\Trainings\\Index.cshtml",
+              "RelativeDocumentMoniker": "FitnessAppIntership\\Views\\Trainings\\Index.cshtml",
+              "ToolTip": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Views\\Trainings\\Index.cshtml",
+              "RelativeToolTip": "FitnessAppIntership\\Views\\Trainings\\Index.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAADAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-29T09:21:32.91Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "VisitEntity.cs",
+              "DocumentMoniker": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Data\\Entities\\VisitEntity.cs",
+              "RelativeDocumentMoniker": "FitnessAppIntership\\Data\\Entities\\VisitEntity.cs",
+              "ToolTip": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Data\\Entities\\VisitEntity.cs",
+              "RelativeToolTip": "FitnessAppIntership\\Data\\Entities\\VisitEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T12:19:30.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TrainingEntity.cs",
+              "DocumentMoniker": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Data\\Entities\\TrainingEntity.cs",
+              "RelativeDocumentMoniker": "FitnessAppIntership\\Data\\Entities\\TrainingEntity.cs",
+              "ToolTip": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Data\\Entities\\TrainingEntity.cs",
+              "RelativeToolTip": "FitnessAppIntership\\Data\\Entities\\TrainingEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T08:41:36.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DbConfigurations.cs",
+              "DocumentMoniker": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Data\\DbConfigurations.cs",
+              "RelativeDocumentMoniker": "FitnessAppIntership\\Data\\DbConfigurations.cs",
+              "ToolTip": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Data\\DbConfigurations.cs",
+              "RelativeToolTip": "FitnessAppIntership\\Data\\DbConfigurations.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAmwFEAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T16:51:55.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "FitnessAppIntership\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "FitnessAppIntership\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T16:50:24.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TrainingService.cs",
+              "DocumentMoniker": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Services\\TrainingService.cs",
+              "RelativeDocumentMoniker": "FitnessAppIntership\\Services\\TrainingService.cs",
+              "ToolTip": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Services\\TrainingService.cs",
+              "RelativeToolTip": "FitnessAppIntership\\Services\\TrainingService.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowCwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T19:07:31.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EquipmentController.cs",
+              "DocumentMoniker": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Controllers\\EquipmentController.cs",
+              "RelativeDocumentMoniker": "FitnessAppIntership\\Controllers\\EquipmentController.cs",
+              "ToolTip": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Controllers\\EquipmentController.cs",
+              "RelativeToolTip": "FitnessAppIntership\\Controllers\\EquipmentController.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAowEQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T17:10:14.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Views\\Subscriptions\\Create.cshtml",
+              "RelativeDocumentMoniker": "FitnessAppIntership\\Views\\Subscriptions\\Create.cshtml",
+              "ToolTip": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Views\\Subscriptions\\Create.cshtml",
+              "RelativeToolTip": "FitnessAppIntership\\Views\\Subscriptions\\Create.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACcAAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-29T07:18:08.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Views\\Subscriptions\\Details.cshtml",
+              "RelativeDocumentMoniker": "FitnessAppIntership\\Views\\Subscriptions\\Details.cshtml",
+              "ToolTip": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Views\\Subscriptions\\Details.cshtml",
+              "RelativeToolTip": "FitnessAppIntership\\Views\\Subscriptions\\Details.cshtml",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwBcAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-29T07:15:29.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "SubscriptionMapper.cs",
+              "DocumentMoniker": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Mappers\\SubscriptionMapper.cs",
+              "RelativeDocumentMoniker": "FitnessAppIntership\\Mappers\\SubscriptionMapper.cs",
+              "ToolTip": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Mappers\\SubscriptionMapper.cs",
+              "RelativeToolTip": "FitnessAppIntership\\Mappers\\SubscriptionMapper.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAYwBcAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T07:20:20.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SubscriptionsController.cs",
+              "DocumentMoniker": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Controllers\\SubscriptionsController.cs",
+              "RelativeDocumentMoniker": "FitnessAppIntership\\Controllers\\SubscriptionsController.cs",
+              "ToolTip": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Controllers\\SubscriptionsController.cs",
+              "RelativeToolTip": "FitnessAppIntership\\Controllers\\SubscriptionsController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAApwC4AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T16:49:33.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SubscriptionViewModel.cs",
+              "DocumentMoniker": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Models\\SubscriptionViewModel.cs",
+              "RelativeDocumentMoniker": "FitnessAppIntership\\Models\\SubscriptionViewModel.cs",
+              "ToolTip": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Models\\SubscriptionViewModel.cs",
+              "RelativeToolTip": "FitnessAppIntership\\Models\\SubscriptionViewModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T16:49:04.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "SubscriptionEntity.cs",
+              "DocumentMoniker": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Data\\Entities\\SubscriptionEntity.cs",
+              "RelativeDocumentMoniker": "FitnessAppIntership\\Data\\Entities\\SubscriptionEntity.cs",
+              "ToolTip": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Data\\Entities\\SubscriptionEntity.cs",
+              "RelativeToolTip": "FitnessAppIntership\\Data\\Entities\\SubscriptionEntity.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T07:04:29.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Views\\SubscriptionTypes\\Create.cshtml",
+              "RelativeDocumentMoniker": "FitnessAppIntership\\Views\\SubscriptionTypes\\Create.cshtml",
+              "ToolTip": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Views\\SubscriptionTypes\\Create.cshtml",
+              "RelativeToolTip": "FitnessAppIntership\\Views\\SubscriptionTypes\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-28T19:29:57.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Views\\SubscriptionTypes\\Delete.cshtml",
+              "RelativeDocumentMoniker": "FitnessAppIntership\\Views\\SubscriptionTypes\\Delete.cshtml",
+              "ToolTip": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Views\\SubscriptionTypes\\Delete.cshtml",
+              "RelativeToolTip": "FitnessAppIntership\\Views\\SubscriptionTypes\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-28T19:29:51.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Views\\SubscriptionTypes\\Details.cshtml",
+              "RelativeDocumentMoniker": "FitnessAppIntership\\Views\\SubscriptionTypes\\Details.cshtml",
+              "ToolTip": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Views\\SubscriptionTypes\\Details.cshtml",
+              "RelativeToolTip": "FitnessAppIntership\\Views\\SubscriptionTypes\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-28T19:29:44.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Views\\SubscriptionTypes\\Edit.cshtml",
+              "RelativeDocumentMoniker": "FitnessAppIntership\\Views\\SubscriptionTypes\\Edit.cshtml",
+              "ToolTip": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Views\\SubscriptionTypes\\Edit.cshtml",
+              "RelativeToolTip": "FitnessAppIntership\\Views\\SubscriptionTypes\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-28T19:28:58.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Views\\SubscriptionTypes\\Index.cshtml",
+              "RelativeDocumentMoniker": "FitnessAppIntership\\Views\\SubscriptionTypes\\Index.cshtml",
+              "ToolTip": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Views\\SubscriptionTypes\\Index.cshtml",
+              "RelativeToolTip": "FitnessAppIntership\\Views\\SubscriptionTypes\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-28T19:28:29.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Views\\TrainingTypes\\Create.cshtml",
+              "RelativeDocumentMoniker": "FitnessAppIntership\\Views\\TrainingTypes\\Create.cshtml",
+              "ToolTip": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Views\\TrainingTypes\\Create.cshtml",
+              "RelativeToolTip": "FitnessAppIntership\\Views\\TrainingTypes\\Create.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAMAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-28T19:27:22.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Views\\TrainingTypes\\Delete.cshtml",
+              "RelativeDocumentMoniker": "FitnessAppIntership\\Views\\TrainingTypes\\Delete.cshtml",
+              "ToolTip": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Views\\TrainingTypes\\Delete.cshtml",
+              "RelativeToolTip": "FitnessAppIntership\\Views\\TrainingTypes\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-28T19:27:06.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Views\\TrainingTypes\\Details.cshtml",
+              "RelativeDocumentMoniker": "FitnessAppIntership\\Views\\TrainingTypes\\Details.cshtml",
+              "ToolTip": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Views\\TrainingTypes\\Details.cshtml",
+              "RelativeToolTip": "FitnessAppIntership\\Views\\TrainingTypes\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-28T19:26:51.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Views\\TrainingTypes\\Edit.cshtml",
+              "RelativeDocumentMoniker": "FitnessAppIntership\\Views\\TrainingTypes\\Edit.cshtml",
+              "ToolTip": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Views\\TrainingTypes\\Edit.cshtml",
+              "RelativeToolTip": "FitnessAppIntership\\Views\\TrainingTypes\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-28T19:26:36.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Views\\TrainingTypes\\Index.cshtml",
+              "RelativeDocumentMoniker": "FitnessAppIntership\\Views\\TrainingTypes\\Index.cshtml",
+              "ToolTip": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Views\\TrainingTypes\\Index.cshtml",
+              "RelativeToolTip": "FitnessAppIntership\\Views\\TrainingTypes\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-28T19:26:18.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "SubscriptionTypeService.cs",
+              "DocumentMoniker": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Services\\SubscriptionTypeService.cs",
+              "RelativeDocumentMoniker": "FitnessAppIntership\\Services\\SubscriptionTypeService.cs",
+              "ToolTip": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Services\\SubscriptionTypeService.cs",
+              "RelativeToolTip": "FitnessAppIntership\\Services\\SubscriptionTypeService.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAkwC8AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T19:04:16.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "MemberListService.cs",
+              "DocumentMoniker": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Services\\MemberListService.cs",
+              "RelativeDocumentMoniker": "FitnessAppIntership\\Services\\MemberListService.cs",
+              "ToolTip": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Services\\MemberListService.cs",
+              "RelativeToolTip": "FitnessAppIntership\\Services\\MemberListService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAkwAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T18:21:55.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "EquipmentService.cs",
+              "DocumentMoniker": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Services\\EquipmentService.cs",
+              "RelativeDocumentMoniker": "FitnessAppIntership\\Services\\EquipmentService.cs",
+              "ToolTip": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Services\\EquipmentService.cs",
+              "RelativeToolTip": "FitnessAppIntership\\Services\\EquipmentService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwB0AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T14:38:47.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "CoachService.cs",
+              "DocumentMoniker": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Services\\CoachService.cs",
+              "RelativeDocumentMoniker": "FitnessAppIntership\\Services\\CoachService.cs",
+              "ToolTip": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Services\\CoachService.cs",
+              "RelativeToolTip": "FitnessAppIntership\\Services\\CoachService.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwC8AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T18:59:58.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "TrainingTypeService.cs",
+              "DocumentMoniker": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Services\\TrainingTypeService.cs",
+              "RelativeDocumentMoniker": "FitnessAppIntership\\Services\\TrainingTypeService.cs",
+              "ToolTip": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Services\\TrainingTypeService.cs",
+              "RelativeToolTip": "FitnessAppIntership\\Services\\TrainingTypeService.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAowCEAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T12:54:20.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "20260528191848_Migration1.cs",
+              "DocumentMoniker": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Migrations\\20260528191848_Migration1.cs",
+              "RelativeDocumentMoniker": "FitnessAppIntership\\Migrations\\20260528191848_Migration1.cs",
+              "ToolTip": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Migrations\\20260528191848_Migration1.cs",
+              "RelativeToolTip": "FitnessAppIntership\\Migrations\\20260528191848_Migration1.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T19:18:48.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
               "Title": "CoachesController.cs",
               "DocumentMoniker": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Controllers\\CoachesController.cs",
               "RelativeDocumentMoniker": "FitnessAppIntership\\Controllers\\CoachesController.cs",
@@ -214,12 +764,229 @@
               "RelativeToolTip": "FitnessAppIntership\\Controllers\\CoachesController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T08:21:06.405Z",
+              "WhenOpened": "2026-05-28T19:23:33.803Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ISubscriptionTypeService.cs",
+              "DocumentMoniker": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Services\\Interfaces\\ISubscriptionTypeService.cs",
+              "RelativeDocumentMoniker": "FitnessAppIntership\\Services\\Interfaces\\ISubscriptionTypeService.cs",
+              "ToolTip": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Services\\Interfaces\\ISubscriptionTypeService.cs",
+              "RelativeToolTip": "FitnessAppIntership\\Services\\Interfaces\\ISubscriptionTypeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T18:38:47.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "IMemberService.cs",
+              "DocumentMoniker": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Services\\Interfaces\\IMemberService.cs",
+              "RelativeDocumentMoniker": "FitnessAppIntership\\Services\\Interfaces\\IMemberService.cs",
+              "ToolTip": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Services\\Interfaces\\IMemberService.cs",
+              "RelativeToolTip": "FitnessAppIntership\\Services\\Interfaces\\IMemberService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T18:38:42.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "IMemberListService.cs",
+              "DocumentMoniker": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Services\\Interfaces\\IMemberListService.cs",
+              "RelativeDocumentMoniker": "FitnessAppIntership\\Services\\Interfaces\\IMemberListService.cs",
+              "ToolTip": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Services\\Interfaces\\IMemberListService.cs",
+              "RelativeToolTip": "FitnessAppIntership\\Services\\Interfaces\\IMemberListService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T18:38:27.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "IHallService.cs",
+              "DocumentMoniker": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Services\\Interfaces\\IHallService.cs",
+              "RelativeDocumentMoniker": "FitnessAppIntership\\Services\\Interfaces\\IHallService.cs",
+              "ToolTip": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Services\\Interfaces\\IHallService.cs",
+              "RelativeToolTip": "FitnessAppIntership\\Services\\Interfaces\\IHallService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T18:38:24.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ICoachService.cs",
+              "DocumentMoniker": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Services\\Interfaces\\ICoachService.cs",
+              "RelativeDocumentMoniker": "FitnessAppIntership\\Services\\Interfaces\\ICoachService.cs",
+              "ToolTip": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Services\\Interfaces\\ICoachService.cs",
+              "RelativeToolTip": "FitnessAppIntership\\Services\\Interfaces\\ICoachService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T18:38:17.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "IEquipmentService.cs",
+              "DocumentMoniker": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Services\\Interfaces\\IEquipmentService.cs",
+              "RelativeDocumentMoniker": "FitnessAppIntership\\Services\\Interfaces\\IEquipmentService.cs",
+              "ToolTip": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Services\\Interfaces\\IEquipmentService.cs",
+              "RelativeToolTip": "FitnessAppIntership\\Services\\Interfaces\\IEquipmentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T14:44:11.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Views\\Equipment\\Edit.cshtml",
+              "RelativeDocumentMoniker": "FitnessAppIntership\\Views\\Equipment\\Edit.cshtml",
+              "ToolTip": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Views\\Equipment\\Edit.cshtml",
+              "RelativeToolTip": "FitnessAppIntership\\Views\\Equipment\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-28T17:08:09.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Repair.cshtml",
+              "DocumentMoniker": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Views\\Equipment\\Repair.cshtml",
+              "RelativeDocumentMoniker": "FitnessAppIntership\\Views\\Equipment\\Repair.cshtml",
+              "ToolTip": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Views\\Equipment\\Repair.cshtml",
+              "RelativeToolTip": "FitnessAppIntership\\Views\\Equipment\\Repair.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-28T16:41:52.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Views\\Equipment\\Index.cshtml",
+              "RelativeDocumentMoniker": "FitnessAppIntership\\Views\\Equipment\\Index.cshtml",
+              "ToolTip": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Views\\Equipment\\Index.cshtml",
+              "RelativeToolTip": "FitnessAppIntership\\Views\\Equipment\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-28T17:08:31.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Views\\Equipment\\Details.cshtml",
+              "RelativeDocumentMoniker": "FitnessAppIntership\\Views\\Equipment\\Details.cshtml",
+              "ToolTip": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Views\\Equipment\\Details.cshtml",
+              "RelativeToolTip": "FitnessAppIntership\\Views\\Equipment\\Details.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-28T17:07:56.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "HallsController.cs",
+              "DocumentMoniker": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Controllers\\HallsController.cs",
+              "RelativeDocumentMoniker": "FitnessAppIntership\\Controllers\\HallsController.cs",
+              "ToolTip": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Controllers\\HallsController.cs",
+              "RelativeToolTip": "FitnessAppIntership\\Controllers\\HallsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T16:49:43.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "FitnessAppIntership\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "FitnessAppIntership\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T16:49:41.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Views\\Equipment\\Create.cshtml",
+              "RelativeDocumentMoniker": "FitnessAppIntership\\Views\\Equipment\\Create.cshtml",
+              "ToolTip": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Views\\Equipment\\Create.cshtml",
+              "RelativeToolTip": "FitnessAppIntership\\Views\\Equipment\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-28T14:50:37.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "EquipmentViewModel.cs",
+              "DocumentMoniker": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Models\\EquipmentViewModel.cs",
+              "RelativeDocumentMoniker": "FitnessAppIntership\\Models\\EquipmentViewModel.cs",
+              "ToolTip": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Models\\EquipmentViewModel.cs",
+              "RelativeToolTip": "FitnessAppIntership\\Models\\EquipmentViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T16:46:30.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "TrainingTypeEntity.cs",
+              "DocumentMoniker": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Data\\Entities\\TrainingTypeEntity.cs",
+              "RelativeDocumentMoniker": "FitnessAppIntership\\Data\\Entities\\TrainingTypeEntity.cs",
+              "ToolTip": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Data\\Entities\\TrainingTypeEntity.cs",
+              "RelativeToolTip": "FitnessAppIntership\\Data\\Entities\\TrainingTypeEntity.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T13:04:16.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Views\\Account\\Index.cshtml",
+              "RelativeDocumentMoniker": "FitnessAppIntership\\Views\\Account\\Index.cshtml",
+              "ToolTip": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Views\\Account\\Index.cshtml",
+              "RelativeToolTip": "FitnessAppIntership\\Views\\Account\\Index.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACQAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-28T10:17:58.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Views\\Members\\Edit.cshtml",
+              "RelativeDocumentMoniker": "FitnessAppIntership\\Views\\Members\\Edit.cshtml",
+              "ToolTip": "D:\\_ACER\\Downloads\\project\\FitnessAppIntership\\FitnessAppIntership\\Views\\Members\\Edit.cshtml",
+              "RelativeToolTip": "FitnessAppIntership\\Views\\Members\\Edit.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAA0AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-28T10:16:46.452Z",
+              "EditorCaption": ""
             }
           ]
         }

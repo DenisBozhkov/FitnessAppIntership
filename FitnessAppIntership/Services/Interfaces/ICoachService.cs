@@ -9,6 +9,6 @@ namespace FitnessAppIntership.Services.Interfaces
         void DeleteCoach(Guid id);
         CoachEntity GetCoach(Guid id);
         ICollection<CoachEntity> ListAllCoaches();
-        bool ExistsCoach(Guid value);
+        bool ExistsCoach(Guid id);
     }
 }

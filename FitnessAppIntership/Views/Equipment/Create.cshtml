@@ -3,17 +3,17 @@
 @inject ApplicationDbContext context
 
 @{
-    ViewData["Title"] = "Edit";
+    ViewData["Title"] = "Create Equipment";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Edit</h1>
+<h1>Create</h1>
 
-<h4>EquipmentEntity</h4>
+<h4>Equipment</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="Edit">
+        <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="Name" class="control-label"></label>
@@ -28,17 +28,12 @@
             <div class="form-group">
                 <label asp-for="HallId" class="control-label"></label>
                 <select asp-for="HallId" class="form-control">
-                    @foreach (var hall in context.Halls)
+                    @foreach(var hall in context.Halls)
                     {
                         <option value="@hall.Id">@hall.Name</option>
                     }
                 </select>
-                <span asp-validation-for="Notes" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="DateOfAcquisition" class="control-label"></label>
-                <input asp-for="DateOfAcquisition" class="form-control" />
-                <span asp-validation-for="DateOfAcquisition" class="text-danger"></span>
+                <span asp-validation-for="HallId" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="State" class="control-label"></label>
@@ -54,8 +49,9 @@
                 <textarea asp-for="Notes" class="form-control"></textarea>
                 <span asp-validation-for="Notes" class="text-danger"></span>
             </div>
+            <input asp-for="DateOfAcquisition" class="form-control" type="hidden" value="@DateTime.Now" />
             <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+                <input type="submit" value="Create" class="btn btn-primary" />
             </div>
         </form>
     </div>

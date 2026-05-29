@@ -1,4 +1,6 @@
-﻿using System.ComponentModel;
+﻿#nullable disable
+
+using System.ComponentModel;
 
 namespace FitnessAppIntership.Models
 {
@@ -8,10 +10,8 @@ namespace FitnessAppIntership.Models
         public Guid MemberId { get; set; }
         [DisplayName("Subscription Type")]
         public Guid SubscriptionTypeId { get; set; }
-        [DisplayName("Purchase Date")]
+        [DisplayName("Date of purchase")]
         public DateTime DateOfPurchase { get; set; }
-        [DisplayName("Expiration Date")]
-        public DateTime ExpirationDate { get; set; }
         [DisplayName("Paid Amount")]
         public decimal PaidAmount { get; set; }
         [DisplayName("Payment Method")]

@@ -15,6 +15,7 @@ namespace FitnessAppIntership.Data
         public DbSet<TrainingEntity> Trainings { get; set; }
         public DbSet<TrainingTypeEntity> TrainingTypes { get; set; }
         public DbSet<VisitEntity> Visits { get; set; }
+        public DbSet<RepairAndMaintenanceEntity> RepairsAndMaintenances { get; set; }
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
         {
@@ -33,6 +34,7 @@ namespace FitnessAppIntership.Data
             modelBuilder.Entity<TrainingEntity>().ToTable("Trainings");
             modelBuilder.Entity<TrainingTypeEntity>().ToTable("TrainingTypes");
             modelBuilder.Entity<VisitEntity>().ToTable("Visits");
+            modelBuilder.Entity<RepairAndMaintenanceEntity>().ToTable("RepairsAndMaintenances");
 
             modelBuilder.ApplyConfiguration(new CoachConfiguration());
             modelBuilder.ApplyConfiguration(new EquipmentConfiguration());
@@ -43,6 +45,7 @@ namespace FitnessAppIntership.Data
             modelBuilder.ApplyConfiguration(new TrainingConfiguration());
             modelBuilder.ApplyConfiguration(new TrainingTypeConfiguration());
             modelBuilder.ApplyConfiguration(new VisitConfiguration());
+            modelBuilder.ApplyConfiguration(new RepairAndMaintenanceConfiguration());
         }
     }
 }

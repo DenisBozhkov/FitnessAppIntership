@@ -10,6 +10,6 @@ namespace FitnessAppIntership.Services.Interfaces
         void ActivateMember(Guid id);
         void DeactivateMember(Guid id);
         bool HasMemberActiveSubscription(Guid memberId);
-        bool ExistsMember(Guid value);
+        bool ExistsMember(Guid id);
     }
 }

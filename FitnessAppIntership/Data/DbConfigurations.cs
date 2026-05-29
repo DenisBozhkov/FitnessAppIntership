@@ -20,6 +20,7 @@ namespace FitnessAppIntership.Data
             builder.HasOne(x => x.Hall);
             builder.HasMany(x => x.RepairsAndMaintenances);
             builder.Navigation(x => x.Hall).AutoInclude();
+            builder.Navigation(x => x.RepairsAndMaintenances).AutoInclude();
         }
     }
     public class HallConfiguration : IEntityTypeConfiguration<HallEntity>
@@ -78,10 +79,12 @@ namespace FitnessAppIntership.Data
         {
             builder.HasKey(x => x.Id);
             builder.HasOne(x => x.Hall);
+            builder.HasOne(x => x.Type);
             builder.HasOne(x => x.Coach);
             builder.HasMany(x => x.SubscriptionTypes);
             builder.HasMany(x => x.Members);
             builder.Navigation(x => x.Hall).AutoInclude();
+            builder.Navigation(x => x.Type).AutoInclude();
             builder.Navigation(x => x.Coach).AutoInclude();
             builder.Navigation(x => x.Members).AutoInclude();
         }

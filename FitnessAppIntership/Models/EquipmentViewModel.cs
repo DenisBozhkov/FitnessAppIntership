@@ -1,4 +1,6 @@
-﻿using FitnessAppIntership.Data.Entities;
+﻿#nullable disable
+
+using FitnessAppIntership.Data.Entities;
 using System.ComponentModel;
 
 namespace FitnessAppIntership.Models

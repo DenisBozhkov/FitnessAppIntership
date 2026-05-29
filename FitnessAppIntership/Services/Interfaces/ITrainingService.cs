@@ -11,6 +11,6 @@ namespace FitnessAppIntership.Services.Interfaces
         void DisenrollMemberFromTraining(Guid memberId, Guid trainingId);
         ICollection<MemberEntity> ListAllMembers(Guid trainingId);
         TrainingEntity GetTraining(Guid trainigId);
-        bool ExistsTraining(Guid value);
+        bool ExistsTraining(Guid id);
     }
 }

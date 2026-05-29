@@ -10,7 +10,8 @@ namespace FitnessAppIntership.Services.Interfaces
         void RegisterRepairOrMaintenance(Guid equipmentId, RepairAndMaintenanceEntity entity);
         EquipmentEntity GetEquipment(Guid id);
         ICollection<EquipmentEntity> ListAllNotOutOfUseEquipment();
-        void ScrapEquipment(EquipmentEntity entity);
+        ICollection<EquipmentEntity> ListAllEquipment();
+        void ScrapEquipment(Guid id);
         bool ExistsEquipment(Guid value);
     }
 }

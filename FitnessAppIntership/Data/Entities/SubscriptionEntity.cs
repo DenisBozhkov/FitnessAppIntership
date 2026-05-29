@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿#nullable disable
+
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 
 namespace FitnessAppIntership.Data.Entities
@@ -10,12 +12,16 @@ namespace FitnessAppIntership.Data.Entities
         [Required]
         public SubscriptionTypeEntity SubscriptionType { get; set; }
         [Required]
+        [DisplayName("Purchase Date")]
         public DateTime DateOfPurchase { get; set; }
         [Required]
+        [DisplayName("Expiration Date")]
         public DateTime ExpirationDate { get; set; }
         [Required]
+        [DisplayName("Paid Amount")]
         public decimal PaidAmount { get; set; }
         [Required]
+        [DisplayName("Paid Amount")]
         public string PaymentMethod { get; set; }
         [Required]
         public AccountEntity ResponsibleUser { get; set; }

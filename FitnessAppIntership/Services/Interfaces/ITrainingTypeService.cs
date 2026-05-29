@@ -9,6 +9,6 @@ namespace FitnessAppIntership.Services.Interfaces
         void DeleteTrainingType(Guid id);
         TrainingTypeEntity GetTrainingType(Guid id);
         ICollection<TrainingTypeEntity> ListAllTrainingTypes();
-        bool ExistsTrainingType(Guid value);
+        bool ExistsTrainingType(Guid id);
     }
 }

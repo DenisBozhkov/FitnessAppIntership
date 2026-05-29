@@ -1,17 +1,17 @@
 ﻿@model FitnessAppIntership.Data.Entities.MemberEntity
 
 @{
-    ViewData["Title"] = "Edit";
+    ViewData["Title"] = "Edit Member";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 <h1>Edit</h1>
 
-<h4>MemberEntity</h4>
+<h4>Member</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="Edit">
+        <form asp-action="Edit" runat="server" enctype="multipart/form-data">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="FirstName" class="control-label"></label>
@@ -35,7 +35,7 @@
             </div>
             <div class="form-group">
                 <label asp-for="BirthDate" class="control-label"></label>
-                <input asp-for="BirthDate" class="form-control" />
+                <input asp-for="BirthDate" type="date" class="form-control" />
                 <span asp-validation-for="BirthDate" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -53,22 +53,17 @@
             </div>
             <div class="form-group">
                 <label asp-for="Email" class="control-label"></label>
-                <input asp-for="Email" class="form-control" />
+                <input asp-for="Email" type="email" class="form-control" />
                 <span asp-validation-for="Email" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="ImagePath" class="control-label"></label>
-                <input asp-for="ImagePath" class="form-control" />
-                <span asp-validation-for="ImagePath" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="JoinDate" class="control-label"></label>
-                <input asp-for="JoinDate" class="form-control" />
-                <span asp-validation-for="JoinDate" class="text-danger"></span>
+                <input id="image-change" name="ImageChange" type="checkbox" />
+                <label for="image-change" class="control-label">Change Image</label>
+                <input name="image" type="file" class="form-control" id="file-input" style="display:none" />
             </div>
             <div class="form-group">
                 <label asp-for="HealthNotes" class="control-label"></label>
-                <input asp-for="HealthNotes" class="form-control" />
+                <textarea asp-for="HealthNotes" class="form-control"></textarea>
                 <span asp-validation-for="HealthNotes" class="text-danger"></span>
             </div>
             <input type="hidden" asp-for="Id" />
@@ -82,6 +77,14 @@
 <div>
     <a asp-action="Index">Back to List</a>
 </div>
+
+<script>
+    document.getElementById("image-change").onchange = function(e){
+        if(document.getElementById("image-change").checked)
+            document.getElementById("file-input").style.display="block";
+        else document.getElementById("file-input").style.display="none";
+    }
+</script>
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

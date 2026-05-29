@@ -1,4 +1,7 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿#nullable disable
+
+using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 
 namespace FitnessAppIntership.Data.Entities
 {
@@ -9,8 +12,10 @@ namespace FitnessAppIntership.Data.Entities
         [Required]
         public string Description { get; set; }
         [Required]
+        [DisplayName("Duration (minutes)")]
         public int DurationInMinutes { get; set; }
         [Required]
+        [DisplayName("Maximum participant count")]
         public int MaximumParticipantsCount { get; set; }
         public List<TrainingEntity> ConcreteTrainings { get; set; } = [];
     }

@@ -1,16 +1,21 @@
-﻿@model FitnessAppIntership.Data.Entities.MemberEntity
+﻿@using FitnessAppIntership.Services.Interfaces
+@model FitnessAppIntership.Models.MemberViewModel
+@inject IVisitService service
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Member Details";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 <h1>Details</h1>
 
 <div>
-    <h4>MemberEntity</h4>
+    <h4>Member</h4>
     <hr />
     <dl class="row">
+        <dd class="col-sm-12">
+            <img src="~/files/@(Model.ImagePath ?? "no-profile-picture.png")" width="150" height="150" />
+        </dd>
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.FirstName)
         </dt>
@@ -60,12 +65,6 @@
             @Html.DisplayFor(model => model.Email)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.ImagePath)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.ImagePath)
-        </dd>
-        <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.JoinDate)
         </dt>
         <dd class = "col-sm-10">
@@ -84,6 +83,62 @@
             @Html.DisplayFor(model => model.Active)
         </dd>
     </dl>
+    <div style="display:flex;column-gap:2em">
+        <div>
+            <strong>Visit History</strong>
+            <form asp-action="Details" asp-route-id="@Model.Id">
+                <label asp-for="StartDate"></label>
+                <input asp-for="StartDate" type="date" /> |
+                <label asp-for="EndDate"></label>
+                <input asp-for="EndDate" type="date" /> |
+                <input type="submit" value="Filter Visits" />
+            </form>
+            <table class="table">
+                <tbody>
+                    @foreach (var item in Model.Visits)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(t => item.VisitTime)
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <strong>Subscription History</strong>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Type</th>
+                        <th>Purchase date</th>
+                        <th>Expiration date</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.Subscriptions)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(t => item.SubscriptionType.Name)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(t => item.DateOfPurchase)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(t => item.ExpirationDate)
+                            </td>
+                            <td>
+                                <a asp-controller="Subscriptions" asp-action="Details" asp-route-id="@item.Id">Details</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
 </div>
 <div>
     <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |

@@ -26,6 +26,7 @@ namespace FitnessAppIntership.Controllers
 
         public IActionResult Week()
         {
+            ViewData["ThisWeek"] = true;
             return View("Index", _service.ListAllTrainingsOnWeek(DateTime.Now));
         }
 

@@ -1,6 +1,4 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using FitnessAppIntership.Data;
 using FitnessAppIntership.Data.Entities;
 using FitnessAppIntership.Models;
 using FitnessAppIntership.Mappers;

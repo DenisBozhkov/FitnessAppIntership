@@ -8,16 +8,17 @@ namespace FitnessAppIntership.Mappers
     {
         public SubscriptionEntity ToEntity(SubscriptionViewModel model)
         {
-            return new()
+            SubscriptionEntity entity = new()
             {
+                SubscriptionType = context.SubscriptionTypes.Find(model.SubscriptionTypeId),
                 DateOfPurchase = model.DateOfPurchase,
-                ExpirationDate = model.ExpirationDate,
                 Member = context.Members.Find(model.MemberId),
                 PaidAmount = model.PaidAmount,
                 PaymentMethod = model.PaymentMethod,
-                ResponsibleUser = context.Users.Find(model.ResponsibleUserId),
-                SubscriptionType = context.SubscriptionTypes.Find(model.SubscriptionTypeId)
+                ResponsibleUser = context.Users.Find(model.ResponsibleUserId)
             };
+            entity.ExpirationDate = entity.DateOfPurchase.AddDays(entity.SubscriptionType.DurationInDays);
+            return entity;
         }
 
         public SubscriptionViewModel ToModel(SubscriptionEntity entity)

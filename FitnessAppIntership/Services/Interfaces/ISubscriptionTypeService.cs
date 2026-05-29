@@ -9,6 +9,6 @@ namespace FitnessAppIntership.Services.Interfaces
         void DeleteSubscriptionType(Guid id);
         SubscriptionTypeEntity GetSubscriptionType(Guid id);
         ICollection<SubscriptionTypeEntity> ListAllSubscriptionTypes();
-        bool ExistsSubscriptionType(Guid value);
+        bool ExistsSubscriptionType(Guid id);
     }
 }

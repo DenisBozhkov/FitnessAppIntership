@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FitnessAppIntership.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20260527172835_ConnectedTrainingsAndMembersMigration")]
-    partial class ConnectedTrainingsAndMembersMigration
+    [Migration("20260529090240_Migration1")]
+    partial class Migration1
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -258,7 +258,7 @@ namespace FitnessAppIntership.Migrations
 
                     b.HasIndex("EquipmentId");
 
-                    b.ToTable("RepairAndMaintenanceEntity");
+                    b.ToTable("RepairsAndMaintenances", (string)null);
                 });
 
             modelBuilder.Entity("FitnessAppIntership.Data.Entities.SubscriptionEntity", b =>

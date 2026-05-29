@@ -1,11 +1,13 @@
-﻿@model IEnumerable<FitnessAppIntership.Data.Entities.SubscriptionEntity>
+﻿@using FitnessAppIntership.Services.Interfaces
+@model IEnumerable<FitnessAppIntership.Data.Entities.SubscriptionEntity>
+@inject ISubscriptionService service
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Subscriptions";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Index</h1>
+<h1>Subscriptions</h1>
 
 <p>
     <a asp-action="Create">Create New</a>
@@ -14,23 +16,32 @@
     <thead>
         <tr>
             <th>
+                Subscription Type
+            </th>
+            <th>
+                Member
+            </th>
+            <th>
                 @Html.DisplayNameFor(model => model.DateOfPurchase)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.ExpirationDate)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.PaidAmount)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.PaymentMethod)
+                Responsible User
             </th>
             <th></th>
         </tr>
     </thead>
     <tbody>
 @foreach (var item in Model) {
-        <tr>
+            <tr style="@(service.IsSubscriptionExpired(item.Id)?"background-color:orange":(service.IsSubscriptionExpiring(item.Id,int.Parse(ViewData["days"]?.ToString()??"24"))?"background-color:yellow":""))">
+            <td>
+                @Html.DisplayFor(modelItem => item.SubscriptionType.Name)
+            </td>
+            <td>
+                @string.Format("{0} {1} {2}", item.Member.FirstName, item.Member.SecondName, item.Member.LastName)
+            </td>
             <td>
                 @Html.DisplayFor(modelItem => item.DateOfPurchase)
             </td>
@@ -38,15 +49,10 @@
                 @Html.DisplayFor(modelItem => item.ExpirationDate)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.PaidAmount)
+                @Html.DisplayFor(modelItem => item.ResponsibleUser.UserName)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.PaymentMethod)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a>
             </td>
         </tr>
 }

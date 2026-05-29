@@ -11,6 +11,18 @@
     <h4>SubscriptionEntity</h4>
     <hr />
     <dl class="row">
+        <dt class="col-sm-2">
+            Subscription Type
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.SubscriptionType.Name)
+        </dd>
+        <dt class="col-sm-2">
+            Member
+        </dt>
+        <dd class="col-sm-10">
+            @string.Format("{0} {1} {2}", Model.Member.FirstName, Model.Member.SecondName, Model.Member.LastName)
+        </dd>
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.DateOfPurchase)
         </dt>
@@ -35,9 +47,14 @@
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.PaymentMethod)
         </dd>
+        <dt class="col-sm-2">
+            Responsible User
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ResponsibleUser.UserName)
+        </dd>
     </dl>
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
     <a asp-action="Index">Back to List</a>
 </div>

@@ -1,34 +1,53 @@
 ﻿@model IEnumerable<FitnessAppIntership.Data.Entities.TrainingEntity>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Trainings";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Index</h1>
+@if(ViewData.ContainsKey("ThisWeek"))
+{
+    <h1>Trainings this week</h1>
+}
+else
+{
+    <h1>Trainings today</h1>
+}
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create">Create New</a> |
+    @if (ViewData.ContainsKey("ThisWeek")) 
+    {
+        <a asp-action="Index">View all trainings today</a>
+    }
+    else
+    {
+        <a asp-action="Week">View all trainings this week</a>
+    }
 </p>
 <table class="table">
     <thead>
         <tr>
+            <th>Training Type</th>
             <th>
                 @Html.DisplayNameFor(model => model.StartTime)
             </th>
+            <th>Coach</th>
+            <th>Hall</th>
             <th></th>
         </tr>
     </thead>
     <tbody>
 @foreach (var item in Model) {
         <tr>
+            <td>@Html.DisplayFor(modelItem => item.Type.Name)</td>
             <td>
                 @Html.DisplayFor(modelItem => item.StartTime)
             </td>
+            <td>@string.Format("{0} {1} {2}", item.Coach.FirstName, item.Coach.SecondName, item.Coach.LastName)</td>
+            <td>@Html.DisplayFor(modelItem => item.Hall.Name)</td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a>
             </td>
         </tr>
 }
